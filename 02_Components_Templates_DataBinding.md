@@ -20,3 +20,5 @@ ng g c another --flat -is -it # 当前目录，行内样式，行内模板
 7 ngAfterViewChecked -- After every check of the compoennt\'s views/child views
 8 ngOnDestroy --- Just before Angular2 destroy the directive /component
 ```
+
+local reference only accessed inside templates

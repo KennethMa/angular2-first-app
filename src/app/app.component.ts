@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     <!--<app-databinding></app-databinding>-->
 
     <app-lifecycle *ngIf="delete" [bindable]="boundValue">
-      <p>{{test}}</p>
+      <p #boundContent>{{test}}</p>
       <p>{{boundValue}}</p>
     </app-lifecycle>
     <button (click)="delete=!delete">Click to toggle</button>
